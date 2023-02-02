@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top:0;
+  z-index: 900;
+  background-color: #f2ebe9;
+  box-shadow: 0px 2px rgba(196, 196, 196, 0.2)
+}
+
+.title {
+  text-align: center;
+  margin-top: 1rem;
+  color: #C34567;;
+}
+
+.container {
+  min-height: 100%;
+  padding-top:100px;
+  padding-bottom:50px;
+  background-color: #eddcd9;
+}
+
+
+
+.project-card-list {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 80%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.project-card {
+  height: 200px;
+  width: 200px;
+  margin: 1rem;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  background: linear-gradient(180deg, rgba(229, 121, 119, 0.1) 0%, rgba(229, 121, 119, 0) 100%), rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 4px rgba(196, 196, 196, 0.2), 0px 3px 15px rgba(196, 196, 196, 0.15);
+}
+
+.project-card h3 {
+  height: 20%;
+  color: #C34567;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.project-card p {
+  font-size: 0.8rem;
+  height: 70%;
+  padding: 0.5rem 0rem;
+  color: #161616;
+}
+
+.project-card a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.primary-btn {
+  background: linear-gradient(180deg, rgba(229, 121, 119, 0.1) 0%, rgba(229, 121, 119, 0) 100%), rgba(255, 255, 255, 0.8);
+  color: #E57977;
+  border: 2px solid #E57977;
+  padding: 0.5rem 1rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  margin: 0;
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+
+
+
+.footer {
+  background-color: #264143;
+  padding-top: 1rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  height: 50px;
+}
+
+/* .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #174a5c;
+  color: white;
+  text-align: center;
+} */
+
+/* Responsive layout */
+@media (max-width: 767px) {
+  .container {
+      padding: 1em;
+  }
+}
