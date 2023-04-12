@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+ /* 文字顏色 */
+ color: white;
+}
+
+
+.one {
+  background-image: url("/images/bg-01.jpg");
+  
+  min-height: 100vh;
+
+  /* 建立滾動視差的效果 */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* 使子元素有置中效果 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.two {
+  background-color: #fff;
+  min-height: 30vh;
+  padding: 5vh;
+
+  text-align: justify;
+  color: #777;
+  
+}
+
+div.two h2 {
+  color: #111;
+  margin: 20px 0;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.three {
+  background-image: url(/images/bg-02.jpg);
+
+  min-height: 50vh;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four {
+  background-color: #282E34;
+  padding: 50px 80px;
+}
+
+.five {
+  background-color: #ffffff;
+}
+
+.product {
+  color: #111;
+
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 100px 
+}
+
+.product img {
+  width: 100%;
+}
+.product-image-left {
+  flex: 1;
+  order: 1;
+}
+
+.product-text-right {
+  flex: 1;
+  order: 2;
+  margin-left: 20px;
+}
+
+.product-text-left {
+  flex: 1;
+  order: 1;
+}
+
+.product-image-right {
+  flex: 1;
+  order: 2;
+}
+
+
+
+.bottom {
+  background-image: url(/images/bg-05.jpg);
+
+  min-height: 100vh;
+
+  /* 使子元素有置中效果 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+   /* 建立滾動視差的效果 */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
